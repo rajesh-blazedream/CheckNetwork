@@ -1,0 +1,6 @@
+use_frameworks!
+target 'CheckNetwork_Tests' do
+  pod 'CheckNetwork', :path => '../'
+  
+  ${INCLUDED_PODS}
+end
